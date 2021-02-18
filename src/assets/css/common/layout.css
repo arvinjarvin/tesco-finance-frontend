@@ -1,0 +1,42 @@
+.container {
+  max-width: 1920px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+.container-md {
+  max-width: 1260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.y-auto {
+  overflow-y: unset !important;
+}

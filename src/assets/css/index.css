@@ -1,0 +1,172 @@
+@import './common/layout.css';
+@import './common/font.css';
+@import './common/typography.css';
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-family: Tesco Modern, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+:root {
+  --tesco-blue: #00539f;
+  --tesco-blue-secondary: #007eb3;
+  --tesco-red: #ee1c2e;
+  --tesco-white: #ffffff;
+  --tesco-white-secondary: #f6f6f6;
+  --global-header-height: 44px;
+}
+
+.btn-primary {
+  color: var(--tesco-white);
+  background-color: var(--tesco-blue);
+  border-color: var(--tesco-blue);
+}
+
+.secondary-btn {
+  transition: color 0.2s, background 0.2s, border 0.2s;
+}
+
+.secondary-btn > span > svg {
+  transition: color 0.2s;
+}
+
+.secondary-btn:hover {
+  background: var(--tesco-white);
+  color: var(--tesco-blue) !important;
+}
+
+.secondary-btn:hover > span > svg {
+  color: var(--tesco-red) !important;
+}
+
+.link-btn {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.br-100 {
+  border-radius: 100px;
+}
+
+.homepage-hero__jarallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-hero__secondary {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-i {
+  font-size: 19px;
+}
+
+.action-i-login {
+  font-size: 15px;
+}
+
+.stock-logo {
+  position: relative;
+  max-height: 90%;
+  width: auto;
+}
+
+.login__container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.login-descriptor__container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 725px) {
+  .login-descriptor__container {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .login__form {
+    width: 85vw !important;
+  }
+}
+
+.link-tag {
+  color: var(--tesco-blue);
+  cursor: pointer;
+  transition: color 0.1s;
+}
+
+.link-tag:hover {
+  color: var(--tesco-blue-secondary);
+}
+
+.red {
+  color: var(--tesco-red);
+}
+
+.login__form {
+  width: 550px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border: 2px solid var(--tesco-white-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.form-container label {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.form-container input {
+  min-height: 30px;
+  background-color: var(--tesco-white);
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 3px solid var(--tesco-white-secondary);
+}
+
+button,
+input,
+textarea,
+select,
+a {
+  outline: none;
+}

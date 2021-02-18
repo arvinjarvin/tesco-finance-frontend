@@ -1,0 +1,60 @@
+@font-face {
+  font-family: tesco-icons;
+  src: url('../../fonts/tesco-icons.eot');
+  src: url('../../fonts/tesco-icons.eot?#iefix') format('embedded-opentype'),
+    url(../../fonts/tesco-icons-9.woff) format('woff'),
+    url(../../fonts/tesco-icons.svg) format('svg'),
+    url(../../fonts/tesco-icons.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Tesco Modern;
+  src: url('../../fonts/TESCOModern-Bold-web.eot');
+  src: url('../../fonts/TESCOModern-Bold-web.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/TESCOModern-Bold-web.woff2') format('woff2'),
+    url('../../fonts/TESCOModern-Bold-web.woff') format('woff'),
+    url('../../fonts/TESCOModern-Bold-web.ttf') format('truetype'),
+    url('../../fonts/TESCOModern-Bold-web.svg') format('svg');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Tesco Modern;
+  src: url('../../fonts/TESCOModern-Light-web.eot');
+  src: url('../../fonts/TESCOModern-Light-web.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/TESCOModern-Light-web.woff2') format('woff2'),
+    url('../../fonts/TESCOModern-Light-web.woff') format('woff'),
+    url('../../fonts/TESCOModern-Light-web.ttf') format('truetype'),
+    url('../../fonts/TESCOModern-Light-web.svg') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Tesco Modern;
+  src: url('../../fonts/TESCOModern-Medium-web.eot');
+  src: url('../../fonts/TESCOModern-Medium-web.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/TESCOModern-Medium-web.woff2') format('woff2'),
+    url('../../fonts/TESCOModern-Medium-web.woff') format('woff'),
+    url('../../fonts/TESCOModern-Medium-web.ttf') format('truetype'),
+    url('../../fonts/TESCOModern-Medium-web.svg') format('svg');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Tesco Modern;
+  src: url('../../fonts/TESCOModern-Regular-web.eot');
+  src: url('../../fonts/TESCOModern-Regular-web.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/TESCOModern-Regular-web.woff2') format('woff2'),
+    url('../../fonts/TESCOModern-Regular-web.woff') format('woff'),
+    url('../../fonts/TESCOModern-Regular-web.ttf') format('truetype'),
+    url('../../fonts/TESCOModern-Regular-web.svg') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}

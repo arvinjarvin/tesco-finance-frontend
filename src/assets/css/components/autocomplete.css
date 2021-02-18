@@ -1,0 +1,22 @@
+.search__autocomplete {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  width: 417px;
+  background-color: var(--tesco-white-secondary);
+}
+
+.search__autocomplete-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 30px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.search__autocomplete-item:hover {
+  background-color: rgb(163, 163, 163);
+}

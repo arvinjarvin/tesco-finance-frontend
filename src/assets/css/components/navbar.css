@@ -1,0 +1,138 @@
+.navbar-main {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+
+.navbar-heading {
+  display: flex;
+  padding: 20px 20px 20px;
+  justify-content: space-between;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+.logo {
+  color: var(--tesco-blue);
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 34px;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.navbar-heading__signpost {
+  font-size: 2.4rem;
+  line-height: 1;
+  vertical-align: top;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar-heading__widgets {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.text-field-input {
+  background: var(--tesco-white);
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  color: #666;
+  display: inline-block;
+  height: 30px;
+  letter-spacing: 0;
+  padding: 6px 8px;
+  position: relative;
+  transition: box-shadow 0.3s;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.search-wrapper .text-field {
+  display: inline-block;
+  margin-right: 30px;
+  min-width: 300px;
+  max-width: 400px;
+  flex-grow: 1;
+  margin-left: 40px;
+}
+
+@media (max-width: 770px) {
+  .search-wrapper .text-field {
+    min-width: 200px;
+  }
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 935px) {
+  .search-wrapper .text-field {
+    display: none;
+  }
+  .navbar-heading__signpost {
+    display: none;
+  }
+}
+
+.navbar-menu-button__mobile {
+  display: none !important;
+}
+
+@media (max-width: 525px) {
+  .navbar__links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 30px;
+    z-index: 50000;
+  }
+  .navbar-link {
+    font-size: 0.9em !important;
+    margin-inline: 0px !important;
+  }
+  .navbar-menu-button__mobile {
+    display: flex !important;
+  }
+  .logo img {
+    height: 24px;
+    margin-right: 8px;
+    margin-top: 10px;
+  }
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--tesco-blue);
+  font-size: 1em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
+  border-bottom: 4px solid transparent;
+}
+
+.navbar-link:hover {
+  color: var(--tesco-blue-secondary);
+  border-color: var(--tesco-blue-secondary);
+  text-decoration: none;
+}

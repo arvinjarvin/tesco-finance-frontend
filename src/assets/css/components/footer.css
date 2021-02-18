@@ -1,0 +1,49 @@
+.footer-main {
+  background-color: var(--tesco-white-secondary);
+  padding: 20px 20px;
+}
+
+.footer-suffix {
+  padding: 20px 20px;
+  font-weight: 400;
+  color: rgb(128, 128, 128);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+@media (max-width: 650px) {
+  .footer__container {
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .footer__container > div > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0px;
+  }
+}
+
+.footer__container > div > ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.footer__column li:first-child {
+  color: black;
+  font-weight: 700;
+}
+
+.footer__column li {
+  padding: 5px;
+  color: rgb(141, 141, 141);
+  font-weight: 400;
+  cursor: pointer;
+}
